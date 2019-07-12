@@ -1,0 +1,32 @@
+intents:
+- affirm
+- deny
+- goodbye
+- greet
+- hi_affirm
+- hi_deny
+- hi_goodbye
+- hi_greet
+- hi_mood_great
+- hi_mood_unhappy
+- mood_great
+- mood_unhappy
+templates:
+  en_latin_utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  en_devanagari_utter_cheer_up:
+  - text: 'हिर इस समथिंग:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  hi_latin_utter_cheer_up:
+  - text: 'Ye dekho:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  hi_devanagari_utter_cheer_up:
+  - text: 'ये देखो:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+actions:
+- action_cheer_up
+- action_did_that_help
+- action_goodbye
+- action_greet
+- action_happy
